@@ -13,19 +13,19 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 #include "ESP8266WiFi.h"
-char auth[] = "863e4ef6193144d59ccc0ff275521dcb";
+char auth[] = "YourAuthToken";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Vardhman_2.4GHz";
-char pass[] = "V$9825067189$";
+char ssid[] = "Don'ttakemyssid";
+char pass[] = "forgetaboutthepassword";
 
 WidgetMap myMap(V1);
 
 //Credentials for Google GeoLocation API...
 const char* Host = "www.googleapis.com";
 String thisPage = "/geolocation/v1/geolocate?key=";
-String key = "AIzaSyA5VhzanNdp9e3sSR7v1mSfrNRbP0oiM6g";
+String key = "GooglegeolocationAPIKEY";
 
 int status = WL_IDLE_STATUS;
 String jsonString = "{\n";
